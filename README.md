@@ -16,7 +16,7 @@ How to Use:
 2: All Get call related tests are in GetMovies.Java under(com.splunk.test) package
 3: All POST call related tests are in GetMovies.Java under(com.splunk.test)package
 4: Class ReusableFunctions.java under (com.splunk.commons)package contains all Reused functions . 
-5. Class BaseSetup.java currently don't have much lines but at real time we will using it for initializing. Ex: data read from CSV , defining Before Class, Before suite etc..
+5. Class BaseSetup.java currently don't have much lines but at real time we will using it for initializing. Ex: data read from CSV ,defining Before Class, Before suite , DB Connections , Log Server connection etc..
 6: Under com.splunk.sampleproject.dataread package i kept utils file like Excel read , Property read 
 7: Under resource folder contains Service endpoints , Log Properties 
 8: com.splunk.pojos package contains request pojos.
