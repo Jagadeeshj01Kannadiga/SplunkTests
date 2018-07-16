@@ -44,60 +44,60 @@
       <![CDATA[The Dark Knight present in : The Dark Knight Rises]]>
     </line>
   </reporter-output>
-  <suite name="Splunk Sample Tests" duration-ms="19070" started-at="2018-07-16T02:16:34Z" finished-at="2018-07-16T02:16:54Z">
+  <suite name="Splunk Test Suite" duration-ms="12980" started-at="2018-07-16T03:38:27Z" finished-at="2018-07-16T03:38:40Z">
     <groups>
       <group name="checkForLimitNoOFRecord">
-        <method signature="GetMovies.checkForLimitNoOFRecord()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkForLimitNoOFRecord" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkForLimitNoOFRecord()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkForLimitNoOFRecord" class="com.splunk.test.GetMovies"/>
       </group> <!-- checkForLimitNoOFRecord -->
       <group name="checkforTitleIsSubStrOfOtherTitle">
-        <method signature="GetMovies.checkforTitleIsSubStrOfOtherTitle()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkforTitleIsSubStrOfOtherTitle" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkforTitleIsSubStrOfOtherTitle()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkforTitleIsSubStrOfOtherTitle" class="com.splunk.test.GetMovies"/>
       </group> <!-- checkforTitleIsSubStrOfOtherTitle -->
       <group name="checkforAtlestOnePalendromeTitle">
-        <method signature="GetMovies.checkforAtlestOnePalendromeTitle()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkforAtlestOnePalendromeTitle" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkforAtlestOnePalendromeTitle()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkforAtlestOnePalendromeTitle" class="com.splunk.test.GetMovies"/>
       </group> <!-- checkforAtlestOnePalendromeTitle -->
       <group name="checkForValid_poster_path">
-        <method signature="GetMovies.checkForValid_poster_path()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkForValid_poster_path" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.numOfNullGenreIds()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="numOfNullGenreIds" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkForValid_poster_path()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkForValid_poster_path" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.numOfNullGenreIds()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="numOfNullGenreIds" class="com.splunk.test.GetMovies"/>
       </group> <!-- checkForValid_poster_path -->
       <group name="checkDuplicate_poster_path">
-        <method signature="GetMovies.checkDuplicate_poster_path()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkDuplicate_poster_path" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkDuplicate_poster_path()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkDuplicate_poster_path" class="com.splunk.test.GetMovies"/>
       </group> <!-- checkDuplicate_poster_path -->
       <group name="checkNoOfMoviesGenereIdGrterThanFourHundred">
-        <method signature="GetMovies.checkNoOfMoviesGenereIdGrterThanFourHundred()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkNoOfMoviesGenereIdGrterThanFourHundred" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkNoOfMoviesGenereIdGrterThanFourHundred()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkNoOfMoviesGenereIdGrterThanFourHundred" class="com.splunk.test.GetMovies"/>
       </group> <!-- checkNoOfMoviesGenereIdGrterThanFourHundred -->
       <group name="checkNonNullGenreIdsAreSorted">
-        <method signature="GetMovies.checkNonNullGenreIdsAreSorted()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkNonNullGenreIdsAreSorted" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkNonNullGenreIdsAreSorted()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkNonNullGenreIdsAreSorted" class="com.splunk.test.GetMovies"/>
       </group> <!-- checkNonNullGenreIdsAreSorted -->
       <group name="verifyResponseCode">
-        <method signature="GetMovies.verifyResponseCode()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="verifyResponseCode" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.verifyResponseCode()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="verifyResponseCode" class="com.splunk.test.GetMovies"/>
       </group> <!-- verifyResponseCode -->
       <group name="verifyPostingMovie">
-        <method signature="PostMovies.verifyPostingMovie()[pri:0, instance:com.splunk.test.PostMovies@52f27fbd]" name="verifyPostingMovie" class="com.splunk.test.PostMovies"/>
+        <method signature="PostMovies.verifyPostingMovie()[pri:0, instance:com.splunk.test.PostMovies@c430e6c]" name="verifyPostingMovie" class="com.splunk.test.PostMovies"/>
       </group> <!-- verifyPostingMovie -->
       <group name="Movies">
-        <method signature="GetMovies.checkDuplicate_poster_path()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkDuplicate_poster_path" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkForLimitNoOFRecord()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkForLimitNoOFRecord" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkForValid_poster_path()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkForValid_poster_path" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkNoOfMoviesGenereIdGrterThanFourHundred()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkNoOfMoviesGenereIdGrterThanFourHundred" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkNonNullGenreIdsAreSorted()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkNonNullGenreIdsAreSorted" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkWithOutQueryparam()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkWithOutQueryparam" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkWithWrongQueryKey()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkWithWrongQueryKey" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkWithWrongQueryValue()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkWithWrongQueryValue" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkforAtlestOnePalendromeTitle()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkforAtlestOnePalendromeTitle" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkforTitleIsSubStrOfOtherTitle()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkforTitleIsSubStrOfOtherTitle" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.numOfNullGenreIds()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="numOfNullGenreIds" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.verifyResponseCode()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="verifyResponseCode" class="com.splunk.test.GetMovies"/>
-        <method signature="PostMovies.verifyPostingMovie()[pri:0, instance:com.splunk.test.PostMovies@52f27fbd]" name="verifyPostingMovie" class="com.splunk.test.PostMovies"/>
+        <method signature="GetMovies.checkDuplicate_poster_path()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkDuplicate_poster_path" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkForLimitNoOFRecord()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkForLimitNoOFRecord" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkForValid_poster_path()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkForValid_poster_path" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkNoOfMoviesGenereIdGrterThanFourHundred()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkNoOfMoviesGenereIdGrterThanFourHundred" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkNonNullGenreIdsAreSorted()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkNonNullGenreIdsAreSorted" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkWithOutQueryparam()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkWithOutQueryparam" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkWithWrongQueryKey()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkWithWrongQueryKey" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkWithWrongQueryValue()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkWithWrongQueryValue" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkforAtlestOnePalendromeTitle()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkforAtlestOnePalendromeTitle" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkforTitleIsSubStrOfOtherTitle()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkforTitleIsSubStrOfOtherTitle" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.numOfNullGenreIds()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="numOfNullGenreIds" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.verifyResponseCode()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="verifyResponseCode" class="com.splunk.test.GetMovies"/>
+        <method signature="PostMovies.verifyPostingMovie()[pri:0, instance:com.splunk.test.PostMovies@c430e6c]" name="verifyPostingMovie" class="com.splunk.test.PostMovies"/>
       </group> <!-- Movies -->
       <group name="checkWithOutQueryparam">
-        <method signature="GetMovies.checkWithOutQueryparam()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkWithOutQueryparam" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkWithWrongQueryKey()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkWithWrongQueryKey" class="com.splunk.test.GetMovies"/>
-        <method signature="GetMovies.checkWithWrongQueryValue()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkWithWrongQueryValue" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkWithOutQueryparam()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkWithOutQueryparam" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkWithWrongQueryKey()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkWithWrongQueryKey" class="com.splunk.test.GetMovies"/>
+        <method signature="GetMovies.checkWithWrongQueryValue()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkWithWrongQueryValue" class="com.splunk.test.GetMovies"/>
       </group> <!-- checkWithOutQueryparam -->
     </groups>
-    <test name="Functional" duration-ms="19070" started-at="2018-07-16T02:16:34Z" finished-at="2018-07-16T02:16:54Z">
+    <test name="Functional" duration-ms="12980" started-at="2018-07-16T03:38:27Z" finished-at="2018-07-16T03:38:40Z">
       <class name="com.splunk.test.PostMovies">
-        <test-method status="FAIL" signature="verifyPostingMovie()[pri:0, instance:com.splunk.test.PostMovies@52f27fbd]" name="verifyPostingMovie" duration-ms="1311" started-at="2018-07-15T19:16:52Z" description="Verify movie is posted successfully and availabe in response list" finished-at="2018-07-15T19:16:54Z">
+        <test-method status="FAIL" signature="verifyPostingMovie()[pri:0, instance:com.splunk.test.PostMovies@c430e6c]" name="verifyPostingMovie" duration-ms="1769" started-at="2018-07-15T20:38:27Z" description="Verify movie is posted successfully and availabe in response list" finished-at="2018-07-15T20:38:29Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Exception occured while getting resposne Hence Failing200]]>
@@ -117,21 +117,9 @@
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -140,7 +128,7 @@
         </test-method> <!-- verifyPostingMovie -->
       </class> <!-- com.splunk.test.PostMovies -->
       <class name="com.splunk.test.GetMovies">
-        <test-method status="FAIL" signature="checkDuplicate_poster_path()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkDuplicate_poster_path" duration-ms="1902" started-at="2018-07-15T19:16:35Z" description="Test to Verify Duplicate poster path" finished-at="2018-07-15T19:16:36Z">
+        <test-method status="FAIL" signature="checkDuplicate_poster_path()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkDuplicate_poster_path" duration-ms="1875" started-at="2018-07-15T20:38:27Z" description="Test to Verify Duplicate poster path" finished-at="2018-07-15T20:38:29Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Found Duplicate poasterPath =>:https://www.dropbox.com/s/2jda8hu20y99jxl/cinema-food-movie-theater-33129.jpg?dl=0 <= Hence Failing]]>
@@ -159,28 +147,16 @@
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDuplicate_poster_path -->
-        <test-method status="FAIL" signature="checkForLimitNoOFRecord()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkForLimitNoOFRecord" duration-ms="554" started-at="2018-07-15T19:16:36Z" description="Verify check limit no of Record by 1" finished-at="2018-07-15T19:16:37Z">
+        <test-method status="FAIL" signature="checkForLimitNoOFRecord()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkForLimitNoOFRecord" duration-ms="614" started-at="2018-07-15T20:38:29Z" description="Verify check limit no of Record by 1" finished-at="2018-07-15T20:38:30Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Response count is more than 1 expected [true] but found [false]]]>
@@ -201,28 +177,16 @@
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForLimitNoOFRecord -->
-        <test-method status="FAIL" signature="checkForValid_poster_path()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkForValid_poster_path" duration-ms="7858" started-at="2018-07-15T19:16:37Z" description="Test to Verify all poster_path are valid" finished-at="2018-07-15T19:16:45Z">
+        <test-method status="FAIL" signature="checkForValid_poster_path()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkForValid_poster_path" duration-ms="5743" started-at="2018-07-15T20:38:30Z" description="Test to Verify all poster_path are valid" finished-at="2018-07-15T20:38:36Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -243,21 +207,9 @@
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -297,7 +249,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkForValid_poster_path -->
-        <test-method status="FAIL" signature="checkNoOfMoviesGenereIdGrterThanFourHundred()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkNoOfMoviesGenereIdGrterThanFourHundred" duration-ms="957" started-at="2018-07-15T19:16:45Z" description="Test to Verify number of movies whose sum of &quot;genre_ids&quot; &gt; 400 should be no more than 7" finished-at="2018-07-15T19:16:46Z">
+        <test-method status="FAIL" signature="checkNoOfMoviesGenereIdGrterThanFourHundred()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkNoOfMoviesGenereIdGrterThanFourHundred" duration-ms="502" started-at="2018-07-15T20:38:36Z" description="Test to Verify number of movies whose sum of &quot;genre_ids&quot; &gt; 400 should be no more than 7" finished-at="2018-07-15T20:38:36Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[We have more than 7 GenereId sum greater than 400 expected [true] but found [false]]]>
@@ -318,28 +270,16 @@
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNoOfMoviesGenereIdGrterThanFourHundred -->
-        <test-method status="FAIL" signature="checkNonNullGenreIdsAreSorted()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkNonNullGenreIdsAreSorted" duration-ms="525" started-at="2018-07-15T19:16:46Z" description="Test to Verify movies that have non-null genre_ids, results should be sorted by id (ascending)" finished-at="2018-07-15T19:16:46Z">
+        <test-method status="FAIL" signature="checkNonNullGenreIdsAreSorted()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkNonNullGenreIdsAreSorted" duration-ms="721" started-at="2018-07-15T20:38:36Z" description="Test to Verify movies that have non-null genre_ids, results should be sorted by id (ascending)" finished-at="2018-07-15T20:38:37Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Non Null Genre  Are not Sorted by Ids, Ids are:[287757, 404463, 411736, 411802, 49026, 20776, 93560, 186579, 138757, 451570, 300424, 269246, 155, 438741, 241226] expected [true] but found [false]]]>
@@ -360,28 +300,16 @@
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNonNullGenreIdsAreSorted -->
-        <test-method status="FAIL" signature="checkWithOutQueryparam()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkWithOutQueryparam" duration-ms="1562" started-at="2018-07-15T19:16:46Z" description="Verify check With Out Query param and test should fail " finished-at="2018-07-15T19:16:48Z">
+        <test-method status="FAIL" signature="checkWithOutQueryparam()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkWithOutQueryparam" duration-ms="577" started-at="2018-07-15T20:38:37Z" description="Verify check With Out Query param and test should fail " finished-at="2018-07-15T20:38:37Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -428,32 +356,20 @@ Expected status code <404> but was <200>.
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkWithOutQueryparam -->
-        <test-method status="PASS" signature="checkWithWrongQueryKey()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkWithWrongQueryKey" duration-ms="612" started-at="2018-07-15T19:16:48Z" description="Verify check With wrong quey Key  and test should fail " finished-at="2018-07-15T19:16:48Z">
+        <test-method status="PASS" signature="checkWithWrongQueryKey()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkWithWrongQueryKey" duration-ms="474" started-at="2018-07-15T20:38:37Z" description="Verify check With wrong quey Key  and test should fail " finished-at="2018-07-15T20:38:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkWithWrongQueryKey -->
-        <test-method status="FAIL" signature="checkWithWrongQueryValue()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkWithWrongQueryValue" duration-ms="618" started-at="2018-07-15T19:16:48Z" description="Verify check With wrong quey Value  and test should fail " finished-at="2018-07-15T19:16:49Z">
+        <test-method status="FAIL" signature="checkWithWrongQueryValue()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkWithWrongQueryValue" duration-ms="470" started-at="2018-07-15T20:38:38Z" description="Verify check With wrong quey Value  and test should fail " finished-at="2018-07-15T20:38:38Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -498,35 +414,23 @@ Expected status code <404> but was <200>.
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkWithWrongQueryValue -->
-        <test-method status="PASS" signature="checkforAtlestOnePalendromeTitle()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkforAtlestOnePalendromeTitle" duration-ms="667" started-at="2018-07-15T19:16:49Z" description="Verify for Atlest any one Title contains  Palendromic Word" finished-at="2018-07-15T19:16:50Z">
+        <test-method status="PASS" signature="checkforAtlestOnePalendromeTitle()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkforAtlestOnePalendromeTitle" duration-ms="487" started-at="2018-07-15T20:38:38Z" description="Verify for Atlest any one Title contains  Palendromic Word" finished-at="2018-07-15T20:38:39Z">
           <reporter-output>
             <line>
               <![CDATA[Found Title containing  Palendromic Word is : Kayak]]>
             </line>
           </reporter-output>
         </test-method> <!-- checkforAtlestOnePalendromeTitle -->
-        <test-method status="PASS" signature="checkforTitleIsSubStrOfOtherTitle()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="checkforTitleIsSubStrOfOtherTitle" duration-ms="1117" started-at="2018-07-15T19:16:50Z" description="Verify for Atlest any two Title which are substring on other Title" finished-at="2018-07-15T19:16:51Z">
+        <test-method status="PASS" signature="checkforTitleIsSubStrOfOtherTitle()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="checkforTitleIsSubStrOfOtherTitle" duration-ms="461" started-at="2018-07-15T20:38:39Z" description="Verify for Atlest any two Title which are substring on other Title" finished-at="2018-07-15T20:38:39Z">
           <reporter-output>
             <line>
               <![CDATA[Dante present in : Scooby-Doo Meets Dante]]>
@@ -536,7 +440,7 @@ Expected status code <404> but was <200>.
             </line>
           </reporter-output>
         </test-method> <!-- checkforTitleIsSubStrOfOtherTitle -->
-        <test-method status="FAIL" signature="numOfNullGenreIds()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="numOfNullGenreIds" duration-ms="540" started-at="2018-07-15T19:16:51Z" description="Test to Verify Movies with genre_ids == null should be first in response,if multiple movies have genre_ids == null, then sort by id (ascending). " finished-at="2018-07-15T19:16:51Z">
+        <test-method status="FAIL" signature="numOfNullGenreIds()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="numOfNullGenreIds" duration-ms="580" started-at="2018-07-15T20:38:39Z" description="Test to Verify Movies with genre_ids == null should be first in response,if multiple movies have genre_ids == null, then sort by id (ascending). " finished-at="2018-07-15T20:38:40Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[We have one empty genre_ids ,But its not at first in response , Hence failing  expected [true] but found [false]]]>
@@ -557,32 +461,20 @@ Expected status code <404> but was <200>.
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- numOfNullGenreIds -->
-        <test-method status="PASS" signature="verifyResponseCode()[pri:0, instance:com.splunk.test.GetMovies@25be7b63]" name="verifyResponseCode" duration-ms="790" started-at="2018-07-15T19:16:51Z" description="Verify reponse code is as Expected" finished-at="2018-07-15T19:16:52Z">
+        <test-method status="PASS" signature="verifyResponseCode()[pri:0, instance:com.splunk.test.GetMovies@4c163e3]" name="verifyResponseCode" duration-ms="424" started-at="2018-07-15T20:38:40Z" description="Verify reponse code is as Expected" finished-at="2018-07-15T20:38:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseCode -->
       </class> <!-- com.splunk.test.GetMovies -->
     </test> <!-- Functional -->
-  </suite> <!-- Splunk Sample Tests -->
+  </suite> <!-- Splunk Test Suite -->
 </testng-results>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Splunk Sample Tests" >
+<suite name="Splunk Test Suite" parallel="classes" thread-count="2" >
 
 	<test name="Functional">
 	<groups>
