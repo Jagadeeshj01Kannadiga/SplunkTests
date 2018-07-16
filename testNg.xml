@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Splunk Sample Tests" >
+
+	<test name="Functional">
+	<groups>
+		<run>
+			<include name="Movies" />
+		</run>
+	</groups>
+	<classes>
+	<class name="com.splunk.test.GetMovies"></class>
+	<class name="com.splunk.test.PostMovies"></class>
+	</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Splunk Sample Tests]">
+  <test name="Functional(failed)">
+    <groups>
+      <run>
+        <include name="Movies"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.splunk.test.PostMovies">
+        <methods>
+          <include name="verifyPostingMovie"/>
+        </methods>
+      </class> <!-- com.splunk.test.PostMovies -->
+      <class name="com.splunk.test.GetMovies">
+        <methods>
+          <include name="checkWithOutQueryparam"/>
+          <include name="checkNonNullGenreIdsAreSorted"/>
+          <include name="checkForLimitNoOFRecord"/>
+          <include name="checkForValid_poster_path"/>
+          <include name="checkDuplicate_poster_path"/>
+          <include name="numOfNullGenreIds"/>
+          <include name="checkWithWrongQueryValue"/>
+          <include name="checkNoOfMoviesGenereIdGrterThanFourHundred"/>
+        </methods>
+      </class> <!-- com.splunk.test.GetMovies -->
+    </classes>
+  </test> <!-- Functional(failed) -->
+</suite> <!-- Failed suite [Splunk Sample Tests] -->

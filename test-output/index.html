@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Splunk_Sample_Tests">
+              <span class="suite-name border-failed">Splunk Sample Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Splunk_Sample_Tests">
+                    <span>testNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Splunk_Sample_Tests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Splunk_Sample_Tests">
+                    <span>11 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Splunk_Sample_Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Splunk_Sample_Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Splunk_Sample_Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Splunk_Sample_Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 9 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Splunk_Sample_Tests" class="hide-methods failed suite-Splunk_Sample_Tests"> (hide)</a> <!-- hide-methods failed suite-Splunk_Sample_Tests -->
+                      <a href="#" panel-name="suite-Splunk_Sample_Tests" class="show-methods failed suite-Splunk_Sample_Tests"> (show)</a> <!-- show-methods failed suite-Splunk_Sample_Tests -->
+                    </span>
+                    <div class="method-list-content failed suite-Splunk_Sample_Tests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkDuplicate_poster_path">checkDuplicate_poster_path</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkForLimitNoOFRecord">checkForLimitNoOFRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkForValid_poster_path">checkForValid_poster_path</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkNoOfMoviesGenereIdGrterThanFourHundred">checkNoOfMoviesGenereIdGrterThanFourHundred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkNonNullGenreIdsAreSorted">checkNonNullGenreIdsAreSorted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkWithOutQueryparam">checkWithOutQueryparam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkWithWrongQueryValue">checkWithWrongQueryValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="numOfNullGenreIds">numOfNullGenreIds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.PostMovies" hash-for-method="verifyPostingMovie">verifyPostingMovie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Splunk_Sample_Tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Splunk_Sample_Tests" class="hide-methods passed suite-Splunk_Sample_Tests"> (hide)</a> <!-- hide-methods passed suite-Splunk_Sample_Tests -->
+                      <a href="#" panel-name="suite-Splunk_Sample_Tests" class="show-methods passed suite-Splunk_Sample_Tests"> (show)</a> <!-- show-methods passed suite-Splunk_Sample_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Splunk_Sample_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkWithWrongQueryKey">checkWithWrongQueryKey</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkforAtlestOnePalendromeTitle">checkforAtlestOnePalendromeTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="checkforTitleIsSubStrOfOtherTitle">checkforTitleIsSubStrOfOtherTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Splunk_Sample_Tests" title="com.splunk.test.GetMovies" hash-for-method="verifyResponseCode">verifyResponseCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Splunk_Sample_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Splunk_Sample_Tests" class="panel Splunk_Sample_Tests">
+          <div class="suite-Splunk_Sample_Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.splunk.test.PostMovies</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostingMovie">
+                  </a> <!-- verifyPostingMovie -->
+                  <span class="method-name">verifyPostingMovie</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while getting resposne Hence Failing200
+	at com.splunk.commons.ReusableFunctions.postMovie(ReusableFunctions.java:117)
+	at com.splunk.test.PostMovies.verifyPostingMovie(PostMovies.java:56)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify movie is posted successfully and availabe in response list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Splunk_Sample_Tests-class-failed -->
+          <div class="suite-Splunk_Sample_Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.splunk.test.GetMovies</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDuplicate_poster_path">
+                  </a> <!-- checkDuplicate_poster_path -->
+                  <span class="method-name">checkDuplicate_poster_path</span>
+                  <div class="stack-trace">java.lang.AssertionError: Found Duplicate poasterPath =&gt;:https://www.dropbox.com/s/2jda8hu20y99jxl/cinema-food-movie-theater-33129.jpg?dl=0 &lt;= Hence Failing
+	at com.splunk.test.GetMovies.checkDuplicate_poster_path(GetMovies.java:84)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to Verify Duplicate poster path)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkForLimitNoOFRecord">
+                  </a> <!-- checkForLimitNoOFRecord -->
+                  <span class="method-name">checkForLimitNoOFRecord</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response count is more than 1 expected [true] but found [false]
+	at com.splunk.test.GetMovies.checkForLimitNoOFRecord(GetMovies.java:287)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify check limit no of Record by 1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkForValid_poster_path">
+                  </a> <!-- checkForValid_poster_path -->
+                  <span class="method-name">checkForValid_poster_path</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Invalid End Point :/sWa1Y5QhGuJMjw8uuFoggGLqZ0y.jpg expected [false] but found [true]
+	at com.splunk.test.GetMovies.checkForValid_poster_path(GetMovies.java:105)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to Verify all poster_path are valid)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNoOfMoviesGenereIdGrterThanFourHundred">
+                  </a> <!-- checkNoOfMoviesGenereIdGrterThanFourHundred -->
+                  <span class="method-name">checkNoOfMoviesGenereIdGrterThanFourHundred</span>
+                  <div class="stack-trace">java.lang.AssertionError: We have more than 7 GenereId sum greater than 400 expected [true] but found [false]
+	at com.splunk.test.GetMovies.checkNoOfMoviesGenereIdGrterThanFourHundred(GetMovies.java:195)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to Verify number of movies whose sum of "genre_ids" > 400 should be no more than 7)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNonNullGenreIdsAreSorted">
+                  </a> <!-- checkNonNullGenreIdsAreSorted -->
+                  <span class="method-name">checkNonNullGenreIdsAreSorted</span>
+                  <div class="stack-trace">java.lang.AssertionError: Non Null Genre  Are not Sorted by Ids, Ids are:[287757, 404463, 411736, 411802, 49026, 20776, 93560, 186579, 138757, 451570, 300424, 269246, 155, 438741, 241226] expected [true] but found [false]
+	at com.splunk.test.GetMovies.checkNonNullGenreIdsAreSorted(GetMovies.java:168)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to Verify movies that have non-null genre_ids, results should be sorted by id (ascending))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWithOutQueryparam">
+                  </a> <!-- checkWithOutQueryparam -->
+                  <span class="method-name">checkWithOutQueryparam</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.splunk.commons.ReusableFunctions.checkSuccessFulResposneQueryPram(ReusableFunctions.java:94)
+	at com.splunk.test.GetMovies.checkWithOutQueryparam(GetMovies.java:258)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify check With Out Query param and test should fail )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWithWrongQueryValue">
+                  </a> <!-- checkWithWrongQueryValue -->
+                  <span class="method-name">checkWithWrongQueryValue</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.splunk.commons.ReusableFunctions.checkSuccessFulResposneQueryPram(ReusableFunctions.java:132)
+	at com.splunk.test.GetMovies.checkWithWrongQueryValue(GetMovies.java:274)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify check With wrong quey Value  and test should fail )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numOfNullGenreIds">
+                  </a> <!-- numOfNullGenreIds -->
+                  <span class="method-name">numOfNullGenreIds</span>
+                  <div class="stack-trace">java.lang.AssertionError: We have one empty genre_ids ,But its not at first in response , Hence failing  expected [true] but found [false]
+	at com.splunk.test.GetMovies.numOfNullGenreIds(GetMovies.java:139)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to Verify Movies with genre_ids == null should be first in response,if multiple movies have genre_ids == null, then sort by id (ascending). )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Splunk_Sample_Tests-class-failed -->
+          <div class="suite-Splunk_Sample_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.splunk.test.GetMovies</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWithWrongQueryKey">
+                  </a> <!-- checkWithWrongQueryKey -->
+                  <span class="method-name">checkWithWrongQueryKey</span>
+                  <em>
+(Verify check With wrong quey Key  and test should fail )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkforAtlestOnePalendromeTitle">
+                  </a> <!-- checkforAtlestOnePalendromeTitle -->
+                  <span class="method-name">checkforAtlestOnePalendromeTitle</span>
+                  <em>
+(Verify for Atlest any one Title contains  Palendromic Word)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkforTitleIsSubStrOfOtherTitle">
+                  </a> <!-- checkforTitleIsSubStrOfOtherTitle -->
+                  <span class="method-name">checkforTitleIsSubStrOfOtherTitle</span>
+                  <em>
+(Verify for Atlest any two Title which are substring on other Title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResponseCode">
+                  </a> <!-- verifyResponseCode -->
+                  <span class="method-name">verifyResponseCode</span>
+                  <em>
+(Verify reponse code is as Expected)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Splunk_Sample_Tests-class-passed -->
+        </div> <!-- panel Splunk_Sample_Tests -->
+        <div panel-name="test-xml-Splunk_Sample_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/RCI/javafiles/WS/splunktest/testNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Splunk Sample Tests&quot;&gt;
+  &lt;test name=&quot;Functional&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Movies&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.splunk.test.GetMovies&quot;/&gt;
+      &lt;class name=&quot;com.splunk.test.PostMovies&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Functional --&gt;
+&lt;/suite&gt; &lt;!-- Splunk Sample Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Splunk_Sample_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Splunk Sample Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Functional (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Splunk_Sample_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Splunk Sample Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Movies</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkDuplicate_poster_path</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkForLimitNoOFRecord</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkForValid_poster_path</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkNoOfMoviesGenereIdGrterThanFourHundred</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkNonNullGenreIdsAreSorted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkWithOutQueryparam</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkWithWrongQueryKey</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkWithWrongQueryValue</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkforAtlestOnePalendromeTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkforTitleIsSubStrOfOtherTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">numOfNullGenreIds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPostingMovie</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyResponseCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkDuplicate_poster_path</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkDuplicate_poster_path</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkForLimitNoOFRecord</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkForLimitNoOFRecord</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkForValid_poster_path</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkForValid_poster_path</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">numOfNullGenreIds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkNoOfMoviesGenereIdGrterThanFourHundred</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkNoOfMoviesGenereIdGrterThanFourHundred</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkNonNullGenreIdsAreSorted</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkNonNullGenreIdsAreSorted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkWithOutQueryparam</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkWithOutQueryparam</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkWithWrongQueryKey</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkWithWrongQueryValue</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkforAtlestOnePalendromeTitle</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkforAtlestOnePalendromeTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkforTitleIsSubStrOfOtherTitle</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkforTitleIsSubStrOfOtherTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">verifyPostingMovie</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPostingMovie</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">verifyResponseCode</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyResponseCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Splunk_Sample_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Splunk Sample Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Splunk_Sample_Tests');
+function tableData_Splunk_Sample_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkForValid_poster_path')
+data.setCell(0, 2, 'com.splunk.test.GetMovies')
+data.setCell(0, 3, 7858);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkDuplicate_poster_path')
+data.setCell(1, 2, 'com.splunk.test.GetMovies')
+data.setCell(1, 3, 1902);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkWithOutQueryparam')
+data.setCell(2, 2, 'com.splunk.test.GetMovies')
+data.setCell(2, 3, 1562);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyPostingMovie')
+data.setCell(3, 2, 'com.splunk.test.PostMovies')
+data.setCell(3, 3, 1311);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkforTitleIsSubStrOfOtherTitle')
+data.setCell(4, 2, 'com.splunk.test.GetMovies')
+data.setCell(4, 3, 1117);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkNoOfMoviesGenereIdGrterThanFourHundred')
+data.setCell(5, 2, 'com.splunk.test.GetMovies')
+data.setCell(5, 3, 957);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyResponseCode')
+data.setCell(6, 2, 'com.splunk.test.GetMovies')
+data.setCell(6, 3, 790);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkforAtlestOnePalendromeTitle')
+data.setCell(7, 2, 'com.splunk.test.GetMovies')
+data.setCell(7, 3, 667);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkWithWrongQueryValue')
+data.setCell(8, 2, 'com.splunk.test.GetMovies')
+data.setCell(8, 3, 618);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkWithWrongQueryKey')
+data.setCell(9, 2, 'com.splunk.test.GetMovies')
+data.setCell(9, 3, 612);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkForLimitNoOFRecord')
+data.setCell(10, 2, 'com.splunk.test.GetMovies')
+data.setCell(10, 3, 554);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'numOfNullGenreIds')
+data.setCell(11, 2, 'com.splunk.test.GetMovies')
+data.setCell(11, 3, 540);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkNonNullGenreIdsAreSorted')
+data.setCell(12, 2, 'com.splunk.test.GetMovies')
+data.setCell(12, 3, 525);
+window.suiteTableData['Splunk_Sample_Tests']= { tableData: data, tableDiv: 'times-div-Splunk_Sample_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <div id="times-div-Splunk_Sample_Tests">
+              </div> <!-- times-div-Splunk_Sample_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Splunk_Sample_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Splunk Sample Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkforTitleIsSubStrOfOtherTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Dante present in : Scooby-Doo Meets Dante</span>
+                <span class="reporter-method-output">The Dark Knight present in : The Dark Knight Rises</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkforAtlestOnePalendromeTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Found Title containing  Palendromic Word is : Kayak</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkForValid_poster_path</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/8i8v4ak8tnp03w4/action-blur-electronics-247932.jpg?dl=0</span>
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/opfcp4ua5fmdszj/actor-actress-adult-974477.jpg?dl=0</span>
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/1qcl5f3o1dmsn0d/adult-beard-electronics-819848.jpg?dl=0</span>
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/0j5o30t1h21u2pw/architecture-bluebird-theatre-building-208647.jpg?dl=0</span>
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/xs5w5v43lpfg4vj/auditorium-chairs-comfortable-269140.jpg?dl=0</span>
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/tr9lhmsukyr62nf/black-and-white-caixa-belas-artes-cinema-65437.jpg?dl=0</span>
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/l3qyiomplo1xy2p/candy-delicious-eating-2904.jpg?dl=0</span>
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/2jda8hu20y99jxl/cinema-food-movie-theater-33129.jpg?dl=0</span>
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/2jda8hu20y99jxl/cinema-food-movie-theater-33129.jpg?dl=0</span>
+                <span class="reporter-method-output">Got Successful result for Endpoint:https://www.dropbox.com/s/2jda8hu20y99jxl/cinema-food-movvvie-theater-33129.jpg?dl=0</span>
+                <span class="reporter-method-output">Found :5null poster paths.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Splunk_Sample_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Splunk_Sample_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.splunk.test.GetMovies</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkDuplicate_poster_path</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkForLimitNoOFRecord</span>
+                <span class="method-start">1905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkForValid_poster_path</span>
+                <span class="method-start">2461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkNoOfMoviesGenereIdGrterThanFourHundred</span>
+                <span class="method-start">10321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkNonNullGenreIdsAreSorted</span>
+                <span class="method-start">11280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkWithOutQueryparam</span>
+                <span class="method-start">11806 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkWithWrongQueryKey</span>
+                <span class="method-start">13370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkWithWrongQueryValue</span>
+                <span class="method-start">13984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkforAtlestOnePalendromeTitle</span>
+                <span class="method-start">14605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkforTitleIsSubStrOfOtherTitle</span>
+                <span class="method-start">15274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">numOfNullGenreIds</span>
+                <span class="method-start">16392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyResponseCode</span>
+                <span class="method-start">16934 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.splunk.test.PostMovies</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPostingMovie</span>
+                <span class="method-start">17726 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
