@@ -1,7 +1,7 @@
 # SplunkTests
 This contains Splunk tests
 
-What are User : 
+What are USED : 
 1: Coding : Java
 2: Rest Client to Test : RestAssured
 3: To Drive Test & Assert & Report : TestNg (Default report , But we can custumize)
@@ -21,7 +21,9 @@ How to Use:
 7: Under resource folder contains Service enpoints , Log Properties 
 8: com.splunk.pojos package contains request pojos.
 
-I have added TestCase file Which contains Positive and negative tests with description and result .
+####Test Cases ######
+I have added TestCase file Which clearly talks all covered tests and behaviour and results bugs .
+
 
 Note :POST is not woking , I'mean not 201 created nor any unique Id to validate in reposne . So could add much POSt tests 
       And also due time constraint I did not implement Data passing from CSV/Data Driven , Customized Asserts , Customized logging , Customized Reporting etc ..   
