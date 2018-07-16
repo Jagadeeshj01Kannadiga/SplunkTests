@@ -38,5 +38,6 @@ Note :
 Things which can be done : 
 
 #1 :And also due time constraint  
-   I did not implement Data passing from CSV/Data Driven , Customized Asserts , Customized logging , Customized Reporting etc ..   
-#2: We have other best practice which will help as and when test count increase and to reduce execution time ,Reduce debugging time , Fancy reporting etc , Sure Fire Report , Multiple instance etc... 
+   I did not implement Data passing from CSV/Data Driven , Customized Asserts , Customized logging , Customized Reporting etc.. 
+   #2: As Post request is small ,i did not use design pattern. 
+#3: We have other best practice which will help as and when test count increase and to reduce execution time ,Reduce debugging time , Fancy reporting etc , Sure Fire Report , Multiple instance etc... 
