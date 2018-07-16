@@ -71,12 +71,12 @@ public class GetMovies extends BaseSetup {
 	 */
 	@Test(groups = { "verifyResponseCode", "Movies" }, description = "Verify reponse code is as Expected")
 	public void verifyResponseCode() {
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 200);
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 200);
 	}
 
 	@Test(groups = { "checkDuplicate_poster_path", "Movies" }, description = "Test to Verify Duplicate poster path")
 	public void checkDuplicate_poster_path() {
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 200);
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 200);
 		ArrayList<String> poasterPaths = response.path("results.poster_path");
 		Set<String> uniquePath = new HashSet<>();
 		for (String poasterPath : poasterPaths) {		
@@ -91,7 +91,7 @@ public class GetMovies extends BaseSetup {
 	public void checkForValid_poster_path() {
 		int noOfNullPosterPath = 0;
 		SoftAssert softAssert = new SoftAssert();
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 200);
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 200);
 		ArrayList<String> poasterPaths = response.path("results.poster_path");
 
 		for (String poasterPath : poasterPaths) {
@@ -110,7 +110,7 @@ public class GetMovies extends BaseSetup {
 	public void numOfNullGenreIds() {
 		try {
 			int i;
-			response = rf.checkSuccessFulResposneQueryPram(getMovies, 200);
+			response = rf.checkSuccessFullResposneQueryPram(getMovies, 200);
 			List<List> genre_ids = new ArrayList<List>();
 			ArrayList<Integer> id = response.path("results.id");
 			Map<Integer, Integer> nullgen = new LinkedHashMap<>();
@@ -151,7 +151,7 @@ public class GetMovies extends BaseSetup {
 	@Test(groups = { "checkNonNullGenreIdsAreSorted", "Movies" }, description = "Test to Verify movies that have non-null genre_ids, results should be sorted by id (ascending)")
 	public void checkNonNullGenreIdsAreSorted() {
 		int i;
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 200);
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 200);
 		List<List> genre_ids = new ArrayList<List>();
 		ArrayList<Integer> id = response.path("results.id");
 		List<Integer> nonNullId = new LinkedList<>();
@@ -177,7 +177,7 @@ public class GetMovies extends BaseSetup {
 		int i;
 		int sum = 0;
 		int count = 0;
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 200);
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 200);
 		genre_ids = response.path("results.genre_ids");
 		for (i = 0; i <= genre_ids.size() - 1; i++) {
 			if (genre_ids.get(i).size() != 0) {
@@ -199,7 +199,7 @@ public class GetMovies extends BaseSetup {
 	@Test(groups = { "checkforAtlestOnePalendromeTitle",
 			"Movies" }, description = "Verify for Atlest any one Title contains  Palendromic Word")
 	public void checkforAtlestOnePalendromeTitle() {
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 200);
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 200);
 		ArrayList<String> title = response.path("results.title");
 		boolean foundPalen = false;
 		for (String str : title) {
@@ -227,7 +227,7 @@ public class GetMovies extends BaseSetup {
 	@Test(groups = { "checkforTitleIsSubStrOfOtherTitle",
 			"Movies" }, description = "Verify for Atlest any two Title which are substring on other Title")
 	public void checkforTitleIsSubStrOfOtherTitle() {
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 200);
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 200);
 		ArrayList<String> title = response.path("results.title");
 		int count = 0;
 		for (int i = 0; i <= title.size() - 1; i++) {
@@ -255,14 +255,14 @@ public class GetMovies extends BaseSetup {
 	@Test(groups = { "checkWithOutQueryparam",
 			"Movies" }, description = "Verify check With Out Query param and test should fail ")
 	public void checkWithOutQueryparam() {
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 404);
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 404);
 
 	}
 	
 	@Test(groups = { "checkWithOutQueryparam",
 			"Movies" }, description = "Verify check With wrong quey Key  and test should fail ")
 	public void checkWithWrongQueryKey() {
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 404, "abc", "batman");
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 404, "abc", "batman");
 
 	}
 	
@@ -271,7 +271,7 @@ public class GetMovies extends BaseSetup {
 	@Test(groups = { "checkWithOutQueryparam",
 			"Movies" }, description = "Verify check With wrong quey Value  and test should fail ")
 	public void checkWithWrongQueryValue() {
-		response = rf.checkSuccessFulResposneQueryPram(getMovies, 404, "q", "abrikadabra");
+		response = rf.checkSuccessFullResposneQueryPram(getMovies, 404, "q", "abrikadabra");
 
 	}
 	
@@ -282,7 +282,7 @@ public class GetMovies extends BaseSetup {
 		Map<String,String> qparam = new HashMap<>();
 		qparam.put("q", "batman");
 		qparam.put("Count", "1");
-		response = rf.checkSuccessFulResposneQueryPrams(qparam, getMovies, 200);
+		response = rf.checkSuccessFullResposneQueryPrams(qparam, getMovies, 200);
 		ArrayList<String> title = response.path("results.title");
 		Assert.assertTrue(title.size()==1, "Response count is more than 1");
 	}

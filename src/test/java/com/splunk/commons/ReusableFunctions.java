@@ -51,7 +51,7 @@ public class ReusableFunctions extends BaseSetup{
 	 * @param statusCode
 	 * @return
 	 */
-	public Response checkSuccessFulResposne(String endPoint, int statusCode) {
+	public Response checkSuccessFullResposne(String endPoint, int statusCode) {
 		try {	
 			response = given().accept("application/json").when().get(endPoint).then().statusCode(statusCode)
 			.extract().response();
@@ -89,7 +89,7 @@ public class ReusableFunctions extends BaseSetup{
 	 * @param statusCode
 	 * @return
 	 */
-	public Response checkSuccessFulResposneQueryPram(String endPoint, int statusCode) {
+	public Response checkSuccessFullResposneQueryPram(String endPoint, int statusCode) {
 		try {	
 			response = given().accept("application/json").queryParam("q", "batman").when().get(endPoint).then().statusCode(statusCode)
 			.extract().response();
@@ -126,7 +126,7 @@ public class ReusableFunctions extends BaseSetup{
 	 * @param queryValue
 	 * @return
 	 */
-	public Response checkSuccessFulResposneQueryPram(String endPoint, int statusCode, String queryKey , String queryValue) {
+	public Response checkSuccessFullResposneQueryPram(String endPoint, int statusCode, String queryKey , String queryValue) {
 		try {	
 		
 			response = given().accept("application/json").queryParam(queryKey, queryValue).when().get(endPoint).then().statusCode(statusCode)
@@ -145,7 +145,7 @@ public class ReusableFunctions extends BaseSetup{
 	 * @param statusCode
 	 * @return
 	 */
-	public Response checkSuccessFulResposneQueryPrams(Map qparam , String endPoint, int statusCode) {
+	public Response checkSuccessFullResposneQueryPrams(Map qparam , String endPoint, int statusCode) {
 		try {	
 
 			response = given().accept("application/json").queryParams(qparam).when().get(endPoint).then().statusCode(statusCode)
